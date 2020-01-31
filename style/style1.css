@@ -1,0 +1,104 @@
+/* style police : Roboto, Baskerville*/
+
+@font-face {
+    font-family: "Roboto-Black", "Baskerville";
+    src: url('Polices/Roboto/Roboto-Black') format('ttf');
+    src: url('Polices/Baskerville/Libre_Baskerville/LibreBaskerville-Regular') format('ttf');
+}
+
+
+/*style contenu principal*/
+
+body {
+    background-color: rgb(199, 202, 201);
+    font-family: Roboto-Black;
+    margin: 0 130px;
+}
+
+
+/*style des titres, liens et paragraphes*/
+
+h1 {
+    font-family: Basekerville;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+.para-style {
+    border: 4px dashed #5e4393;
+    color: #5e4393;
+    font-size: 150%;
+    margin: 10px 90px;
+    padding: 10px 40px;
+    background-color: #bab8be;
+}
+
+a {
+    color: red;
+}
+
+
+/* style tableau */
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+th {
+    font-weight: bold
+}
+
+tr:hover {
+    background-color: rgb(163, 161, 161);
+    cursor: pointer;
+}
+
+table tr:nth-child(2n) {
+    background-color: rgb(212, 211, 211);
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background-color: rgb(71, 69, 69);
+    color: white;
+}
+
+
+/* .entete-tableau {
+    background-color: rgb(39, 38, 38);
+    color: white;
+} */
+
+
+/*style figure*/
+
+figure {
+    border: 2px solid red;
+    border-radius: 0.8%;
+    background-color: rgb(70, 59, 59);
+    margin: inherit;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 150%;
+    color: white;
+    padding: 40px 90px 70px;
+}
+
+img {
+    width: 90%;
+    margin: 40px 50px;
+}
